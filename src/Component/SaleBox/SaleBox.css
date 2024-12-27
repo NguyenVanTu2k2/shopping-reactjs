@@ -1,0 +1,128 @@
+.SaleBox {
+    width: 100%;
+    display: ruby-text;
+    flex: start;
+    margin-top: 20px;
+  
+  }
+  
+  .mySlides {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .SaleBoxLeft {
+    width: 80%;
+    position: relative;
+  }
+  
+  .SaleBoxRight {
+    width: 40%;
+    margin-left: 15px;
+    height: 400px;
+  }
+  
+  .SaleBoxHot {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .ImgHot {
+    position: relative;
+  }
+  
+  
+  .hot-label {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background: rgb(255, 70, 70);
+    color: white;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 700;
+    font-size: larger;
+    transition: color 0.5s, opacity 0.5s;
+    border-radius: 10%;
+    animation: blink 1s infinite;
+  
+  }
+  
+  @keyframes blink {
+  
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .background-banner {
+    /* opacity: 0.6;
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+    display: block;
+    transition: step-end 100ms cubic-bezier(0, 0.11, 0.35, 2); */
+    /*  !important; */
+    height: 500px;
+    display: block;
+    border-radius: 4%;
+  
+  
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -70px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .pagination-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* Khoảng cách giữa các chấm và hình ảnh */
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    /* Khoảng cách giữa các chấm */
+    border-radius: 50%;
+    background-color: #ccc;
+    /* Màu của chấm khi không được chọn */
+    transition: all 0.3s ease;
+    /* Hiệu ứng chuyển đổi */
+  }
+  
+  .dot.active {
+    width: 16px;
+    /* Kích thước lớn hơn khi được chọn */
+    height: 16px;
+    background-color: rgb(166, 160, 160);
+    /* Màu của chấm khi được chọn */
+  }
