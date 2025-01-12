@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import Cookies from "universal-cookie";
 import { useDispatch } from "react-redux";
-import {  setNotificationRemoveCartItem } from "../../Store/NotificationSlice";
+import {  setNotificationRemoveCartItem } from "../../StoreTemp/NotificationSlice";
 import ShowNotification from "../../Notifications/ShowNotification/ShowNotification";
 import { useNavigate } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./ProductsList.css";
 import { useDispatch } from "react-redux";
-import { setNotificationAddToCard } from "../../Store/NotificationSlice";
+import { setNotificationAddToCard } from "../../StoreTemp/NotificationSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";

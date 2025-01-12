@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faStar} from "@fortawesome/free-solid-svg-icons"
 import Cookies from "universal-cookie";
 import { useDispatch } from "react-redux";
-import { setNotificationAddToCard } from "../../Store/NotificationSlice";
+import { setNotificationAddToCard } from "../../StoreTemp/NotificationSlice";
 import ShowNotification from "../../Notifications/ShowNotification/ShowNotification";
 
 const ProductPage = () => {

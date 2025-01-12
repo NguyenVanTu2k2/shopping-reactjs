@@ -3,7 +3,7 @@ import "./ShowNotification.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { useDispatch, useSelector } from "react-redux";
-import { setNotification } from "../../Store/NotificationSlice";
+import { setNotification } from "../../StoreTemp/NotificationSlice";
 
 const ShowNotification = () => {
   const Notification = useSelector((state) => state.Notification.Notification);

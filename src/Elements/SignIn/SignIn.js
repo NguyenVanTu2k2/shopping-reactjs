@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import {
   setNotificationLogin,
   setNotificationSignInError,
-} from "../../Store/NotificationSlice";
+} from "../../StoreTemp/NotificationSlice";
 
 const SignIn = () => {
   const navigate = useNavigate();

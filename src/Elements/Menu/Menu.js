@@ -7,7 +7,7 @@ import SearchBox from "../SearchBox/searchBox";
 import cartImg from "../../assets/images/cart.png";
 import { useDispatch } from "react-redux";
 import Cookies from "universal-cookie";
-import { setNotificationSignOut } from "../../Store/NotificationSlice";
+import { setNotificationSignOut } from "../../StoreTemp/NotificationSlice";
 import logo from "../../assets/images/taoanhdep_avatar_logo_iCjX0b4lFT.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
